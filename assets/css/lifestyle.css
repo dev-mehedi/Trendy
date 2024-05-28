@@ -1,0 +1,189 @@
+/* ----------------------------------------------------------------------------------------
+* Author        : dev.mahmudurrahman
+* Template Name : Trendy- Blog Template
+* File          : Trendy main CSS file
+* Version       : 1.0
+* ----------------------------------------------------------------------------------------*/
+
+
+/* Basic styles */
+html {
+	box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #f7f7f7;
+}
+.hvr-bounce-to-right::before {
+  background: #f04444;
+}
+
+/* Nav */
+.navbar {
+	border-bottom: 0 !important;
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1)
+}
+.attr-nav .search a i {
+  font-size: 15px;
+}
+.navbar-nav li a,
+.attr-nav li a i {
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+.navbar-nav li a:hover,
+.navbar-nav li.active a{
+	color: #f04444 !important;
+}
+.attr-nav .search a i:hover {
+  color: #f04444;
+}
+
+/* Logo */
+.logo-inner {
+  padding: 80px;
+  text-align: center;
+}
+.logo-inner img {
+  display: inline-block;
+}
+
+/* About */
+.about-title {
+  background: url('../img/about-bg.jpg') no-repeat scroll 0 0/cover;
+  content: "";
+  position: relative;
+  z-index: 12;
+  text-align: center;
+}
+.about-title::before {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+.about-title-text {
+  padding: 50px 0;
+  color: #fff;
+}
+.about-title-text h3 {
+  font-size: 30px;
+}
+.about-title-text a {
+  display: inline-block;
+  text-decoration: none;
+  color: #f04444;
+}
+.about-title-text p {
+  display: inline-block;
+}
+.about-title-text span {
+  padding: 0 10px;
+}
+
+/* Category Post */
+.category-post {
+  margin: 230px 0 70px 0;
+}
+.category-post .category-post-one {
+  background: #fff;
+  margin: 60px 0 0 0;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+.category-post-text {
+  padding: 30px 30px 0 10px;
+}
+.category-post-img img {
+  height: 300px;
+}
+.category-post-text .post-stat {
+  padding: 20px 0 0 0;
+}
+.category-post-text .post-stat a:first-child {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #f04444;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+.category-post-text .post-stat a:first-child:hover {
+  color: #000;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+.stat-divider {
+  margin: 0 10px;
+}
+span i::before {
+  padding: 0 5px;
+  color: #f04444;
+}
+.category-post-text .post-stat .post-stat-title {
+  text-decoration: none;
+  color: #000;
+}
+.category-post-text .post-stat .post-stat-title h3 {
+  font-size: 30px;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+.category-post-text .post-stat .post-stat-title h3:hover {
+  color: #f04444;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+.category-post-text .post-stat .post-date {
+  opacity: 0.8;
+}
+.old-post {
+  padding: 50px 0 0 0;
+  text-align: right;
+}
+.old-post a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  padding: 10px 20px;
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+.old-post a i {
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+/* Footer */
+footer {
+  padding: 60px 0;
+  background-color: #000;
+}
+footer .footer-text {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}

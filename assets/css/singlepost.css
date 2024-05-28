@@ -1,0 +1,76 @@
+/* ----------------------------------------------------------------------------------------
+* Author        : dev.mahmudurrahman
+* Template Name : Trendy- Blog Template
+* File          : Trendy main CSS file
+* Version       : 1.0
+* ----------------------------------------------------------------------------------------*/
+
+
+/* Basic styles */
+html {
+	box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.hvr-bounce-to-right::before {
+  background: #f04444;
+}
+
+/* Nav */
+.navbar {
+	border-bottom: 0 !important;
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1)
+}
+.attr-nav .search a i {
+  font-size: 15px;
+}
+.navbar-nav li a,
+.attr-nav li a i {
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+.navbar-nav li a:hover,
+.navbar-nav li.active a{
+	color: #f04444 !important;
+}
+.attr-nav .search a i:hover {
+  color: #f04444;
+}
+
+/* Logo */
+.logo {
+	background-color: #f7f7f7;
+}
+.logo-inner {
+	padding: 80px;
+	text-align: center;
+}
+.logo-inner img {
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+  padding: 60px 0;
+  background-color: #000;
+}
+footer .footer-text {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}

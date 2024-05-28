@@ -1,0 +1,176 @@
+/* ----------------------------------------------------------------------------------------
+* Author        : dev.mahmudurrahman
+* Template Name : Trendy- Blog Template
+* File          : Trendy main CSS file
+* Version       : 1.0
+* ----------------------------------------------------------------------------------------*/
+
+
+/* Basic styles */
+html {
+	box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #f7f7f7;
+}
+.hvr-bounce-to-right::before {
+  background: #f04444;
+}
+
+
+
+/* Nav */
+.navbar {
+	border-bottom: 0 !important;
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1)
+}
+.attr-nav .search a i {
+  font-size: 15px;
+}
+.navbar-nav li a,
+.attr-nav li a i {
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+.navbar-nav li a:hover,
+.navbar-nav li.active a{
+	color: #f04444 !important;
+}
+.attr-nav .search a i:hover {
+  color: #f04444;
+}
+
+/* Logo */
+.logo-inner {
+	padding: 80px;
+	text-align: center;
+}
+.logo-inner img {
+	display: inline-block;
+}
+
+
+/* About */
+.about-img {
+  overflow: hidden;
+}
+.about-img img {
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+.about-img img:hover {
+  transform: scale(1.2);
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+.about-title {
+  background: url('../img/about-bg.jpg') no-repeat scroll 0 0/cover;
+  content: "";
+  position: relative;
+  z-index: 12;
+  text-align: center;
+}
+.about-title::before {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+.about-title-text {
+  padding: 50px 0;
+  color: #fff;
+}
+.about-title-text h3 {
+  font-size: 30px;
+}
+.about-title-text a {
+  display: inline-block;
+  text-decoration: none;
+  color: #f04444;
+}
+.about-title-text p {
+  display: inline-block;
+}
+.about-title-text span {
+  padding: 0 10px;
+}
+
+/* About Main */
+.about {
+  margin: 280px 0 100px 0;
+  position: relative;
+}
+.about .about-text {
+  padding: 70px 50px;
+  background: #fff;
+  text-align: justify;
+  line-height: 2.5;
+  word-spacing: 3px;
+  color: #424242;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+.about .about-text .about-comment {
+  margin: 30px 0;
+  padding: 10px 30px;
+  background: #f7f7f7;
+  border-left: 6px solid #f04444;
+  font-size: 17px;
+  color: #000000;
+  font-weight: 600;
+}
+.about .about-text .about-comment span {
+  opacity: 0.5;
+}
+.follow {
+  color: #f04444;
+}
+.about-follow-icons a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  padding: 0 12px;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+.about-follow-icons a:hover {
+  color: #f04444;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+       -o-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+}
+
+
+/* Footer */
+footer {
+  padding: 60px 0;
+  background-color: #000;
+}
+footer .footer-text {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
